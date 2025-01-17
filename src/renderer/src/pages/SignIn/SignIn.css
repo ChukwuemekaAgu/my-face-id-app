@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #FEFCFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .signin-box {
+    width: 450px;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .signin-title {
+    text-align: center;
+    color: #388E3C;
+    margin-bottom: 2.5rem;
+  }
+  
+  .signin-input {
+    width: 93%;
+    padding: 14px 16px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+  }
+  
+  .signin-button {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 12px 14px;
+    background-color: #388E3C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signin-button:hover {
+    background-color: #2E7D32;
+  }
+  
+  .signin-text {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .signin-link {
+    background: none;
+    border: none;
+    color: #388E3C;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  

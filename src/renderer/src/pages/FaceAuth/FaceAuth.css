@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.faceauth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #FEFCFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .faceauth-box {
+    width: 500px;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .faceauth-title {
+    text-align: center;
+    color: #388E3C;
+    margin-bottom: 2.5rem;
+  }
+  
+  .webcam-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .webcam {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  .faceauth-button {
+    width: 100%;
+    padding: 12px 14px;
+    background-color: #388E3C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .faceauth-button:hover {
+    background-color: #2E7D32;
+  }
+  
+  .captured-image-container {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .captured-image {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+  }
+  
